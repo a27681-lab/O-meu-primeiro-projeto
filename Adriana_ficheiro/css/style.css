@@ -1,0 +1,30 @@
+h1{
+    color: navy;
+}
+#header-cor-vermelha {
+    color:red;
+    font-size: 50px;
+}
+    
+
+body{
+    background-color: #89cff0;
+}
+
+.cor-azul{
+        color: blue;
+        border-style: solid; 
+        height: 200px;
+        width: 500px;
+        padding-left: 5px;
+        text-align: center;
+        padding-top: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+        font-size: 40px;
+
+}
+
+p{
+    color: green;
+}

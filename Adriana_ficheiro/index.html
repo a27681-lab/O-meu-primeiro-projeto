@@ -1,0 +1,62 @@
+<!--este é o meu comentário-->
+<DOCTYPE html>
+<html lang="pt"><!--em minusculas...linguagem é português...isto é um atributo -->
+<head><!--é cabeça da página-->
+    <meta charset="UTF-8"><!--metadados...estamos a dizer quais os caracteres que estamos a usar me portugues..não precisa de fechar-->
+    <title>Curso de Desenvolvimento Web</title><!--aparece o titulo no browser-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body><!--corpo da página. aqui é que começamos a preencher a página-->
+    <header>
+        <h1>Curso de Desenvolvimento Web</h1><!--cabeçalho, header, tag 1-->
+            <nav>
+                <a href="Sobre">Sobre</a>
+                <a href="Contacto">Contacto</a>
+            </nav>
+    </header>
+    <main>
+        <section>
+            <h2 class="cor-azul">Sobre mim</h2>
+            <P>Olá! Esta é a minha primeira página.</P><!--texto normal-->
+        </section>
+       
+        <section>
+                <form>
+                    <label for="Nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome"><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+
+                    <label for="Mensagem">Mensagem:</label><br>
+                    <textarea name="mensagem" id="mensagem" rows="3" cols="30"></textarea><br>
+
+                    <button type="submit">Enviar</button>
+                </form>
+        </section>
+
+        <h1 id="header-cor-vermelha">Tópicos do módulo 1:</h1>
+        <ul><!--inicio da lista não ordenada, pontinhos-->
+            <li>HTML</li><!--um ponto de uma lista-->
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ul>
+
+        <ol><!--lista ordenada-->
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javasript</li>
+        </ol>
+    </main>
+    
+    <footer>
+        <h2>Links úteis</h2>
+        <a href="https://www.w3schools.com/"><!--é um link...o a é para os links e é para fechar o a no final-->
+        <img src="gato.jpg" style="height:200px; width:200px;" src="gato.jpg" alt="gato"><!--nome do ficheiro o src...não é preciso chegar a img -->
+        </a>
+    </footer>
+    
+
+
+</body>
+</html><!--é o final do ficheiro! o atributo foi fechado-->

@@ -1,0 +1,30 @@
+.caixa, .etiqueta {
+  background-color: lavender;
+  border: 2px solid purple;
+  padding: 10px;
+}
+
+.etiqueta{
+    display:inline-block;
+    width: 180px;
+    height: 50px;
+}
+
+.cartao {
+  background-color: lavender;
+  border: 2px solid purple;
+ 
+}
+
+.cartoes{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  
+}
+
+@media (max-width: 768px){
+    .cartoes{
+        grid-template-columns: 1fr;
+    }
+}

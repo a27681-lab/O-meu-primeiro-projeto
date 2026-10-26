@@ -1,0 +1,21 @@
+body{
+    background-color: #f5f5;
+}
+h1{
+    color: navy;
+    text-align: center;
+
+}
+
+P{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+    padding: 20px;
+    border:5px dotted red;
+}
+
+#contacto{
+    background-color: greenyellow;
+}
